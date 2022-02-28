@@ -10,13 +10,14 @@ body {
 }
 
 .animate {
-	animation: fout 1s linear forwards;
+	animation: fout 0.19s linear forwards;
 }
 
 @keyframes fout {
 	to {
 		width:0px;
 		height:0px;
+		filter:blur(100px);
 	}
 }
 
@@ -27,7 +28,6 @@ body {
 	transform:translate(-50%, -50%);
 	background-color:red;
 	filter:blur(10px);
-	opacity:0.5;
 	border-radius:50%;
 	z-index:333;
 }
