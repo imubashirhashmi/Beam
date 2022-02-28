@@ -10,7 +10,7 @@ body {
 }
 
 .animate {
-	animation: fout 2s linear forwards;
+	animation: fout 1s linear forwards;
 }
 
 @keyframes fout {
