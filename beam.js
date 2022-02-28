@@ -21,7 +21,7 @@ document.body.addEventListener('mousedown',(e)=>{
 			mouseY=0;
 			clearInterval(i);
 		}
-},0);
+},10);
 });
 
 document.body.addEventListener('mouseup',(e)=>{
